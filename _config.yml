@@ -1,11 +1,12 @@
 safe: false
-auto: true
-server: false
-server_port: 4000
+port: 4000
 baseurl: /
 url: http://localhose:4000
 source: .
 plugins: ./_plugins
 future: true
-markdown: maruku
-permalink: date
+markdown:     rdiscount
+permalink:    pretty
+paginate:     5
+title: shaneknows
+description: Let's talk code.
