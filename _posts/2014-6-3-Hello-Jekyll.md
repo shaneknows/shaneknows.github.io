@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to My Blog
+title: Hello, Jekyll
 ---
 
 Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running soon.
