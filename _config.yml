@@ -1,12 +1,17 @@
-safe: false
 port: 4000
 baseurl: /
-url: http://localhose:4000
+url: http://localhost:4000
 source: .
 plugins: ./_plugins
 future: true
-markdown:     rdiscount
+markdown:     kramdown
 permalink:    pretty
 paginate:     5
 title: shaneknows
 description: Let's talk code.
+author:
+    display_name: Shane Knowles
+    github: shaneknows
+    twitter: shanelknowles
+    email: shanelknowles@gmail.com
+    gravatar: bc02c2cc888a4cf3603a625663c7dfa9?s=80
