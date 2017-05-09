@@ -84,6 +84,6 @@ Alright so if you don't have a working Unity game feel free to fork mine [here](
 
 You will also want to clear out the JSX (The HTML-like syntax found in the `render` function) rendered in the `App.js` file. Just return an empty div instead or you will get errors when running. You could also just completely comment out the `index.js` file if you don't intend on adding any react code. Now test your app by running `npm start`.
 
-If everything seems to be working run `npm run deploy` again and you should see your game running on your Github Pages site!
+If everything seems to be working, run `npm run deploy` again and you should see your game running on your Github Pages site!
 
-I'm sure there are simpler ways, but I honestly found this to be quite a simple and interesting way to deploy Unity Games. Happy coding.
+Happy coding.
