@@ -19,7 +19,7 @@ Navigate to the folder you wish to create your app and run:
 ```bash
 create-react-app <name of project>
 ```
-This should take a little bit of time but by the time is finishes you will have a working react app you can toy around with. Make sure you switch to the working directory you just created and you can run the app
+This should take a little bit of time but by the time it finishes you will have a working react app you can toy around with. Make sure you switch to the working directory you just created and you can run the app
 ```bash
 cd <your project name>
 npm start
