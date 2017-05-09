@@ -36,11 +36,16 @@ Now in your project's project.json we need to add a deploy option under the `scr
 "deploy":"npm run build&&gh-pages -d build"
 ```
 This will build our project and publish it to a `gh-pages` branch under your project.
-Now let's setup our project to enable GitHub Pages. Under the repository settings, find the GitHub Pages section and set it to use the `gh-pages` branch via the dropdown list.
 
 Now we are almost ready to deploy. First you will want to set your `homepage` in your project.json file. It should be updated and named `https://<username>.github.io/<projectname>`
 
-Now finally we can run 
+Now run 
+```bash
+npm run deploy
+``` 
+to build and publish to the `gh-pages` branch of our repository. If there isn't a branch, it will be created. Now let's setup our project to enable GitHub Pages. Under the repository settings on Github, find the GitHub Pages section and set the `Source` to use the `gh-pages` branch via the dropdown list.
+
+Now again run
 ```bash
 npm run deploy
 ```
@@ -77,7 +82,7 @@ Alright so if you don't have a working Unity game feel free to fork mine [here](
 </html>
 ```
 
-You will also want to clear out the HTML rendered in the `App.js` file. Just return an empty div instead or you will get errors. You could also just completely comment out the `index.js` file if you don't intend on adding any react code. Now test you app by running `npm start`.
+You will also want to clear out the JSX (The HTML-like syntax found in the `render` function) rendered in the `App.js` file. Just return an empty div instead or you will get errors when running. You could also just completely comment out the `index.js` file if you don't intend on adding any react code. Now test your app by running `npm start`.
 
 If everything seems to be working run `npm run deploy` again and you should see your game running on your Github Pages site!
 
