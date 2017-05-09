@@ -51,7 +51,7 @@ npm run deploy
 ```
 and you should be able to navigate to your homepage URL and find your working app!
 
-### OK so now what about Unity?
+### Alright so now what about Unity?
 
 Alright so if you don't have a working Unity game feel free to fork mine [here](https://github.com/shaneknows/NaifuGame). Install the latest version of [Unity3d](https://unity3d.com/get-unity/download) and open the project. Select `File`->`Build and Run`. We want to build the project for WebGL so select that option and provide a Folder name. Once the process has complete you should see your game running in a web browser. If everything appears to be working fine, copy the files from the created folder and paste them in the `public` folder of your React application. This should override the default `index.html` file. Open up the `index.html` file and add `%PUBLIC_PATH%/` in front of the src tags so our file references will work locally and while deployed. Your file should look something like:
 ```html
