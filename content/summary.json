@@ -1,0 +1,73 @@
+{
+  "fileMap": {
+    "content/index.json": {
+      "siteTitle": "shaneknows",
+      "description": "Let's talk code.",
+      "stylesheets": [
+        "https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css"
+      ],
+      "topLinks": [
+        {
+          "text": "Blog",
+          "href": "/"
+        },
+        {
+          "text": "Naifu",
+          "href": "https://shaneknows.github.io/Naifu"
+        },
+        {
+          "text": "React Demo",
+          "href": "https://shaneknows.github.io/ReactDemo"
+        },
+        {
+          "text": "Github",
+          "href": "https://github.com/shaneknows/"
+        }
+      ],
+      "backgroundClass": "bg-dark-gray",
+      "copyright": "Shane Knowles",
+      "siteId": "",
+      "dir": "content",
+      "base": "index.json",
+      "ext": ".json",
+      "sourceBase": "index.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2017-5-8-ReactUnityGithubPages.json": {
+      "title": "React <3 Unity <3 Github Pages",
+      "date": "2017-05-08T00:00:00.000Z",
+      "preview": "Recently I have been tinkering with React and really digging how easy it is to get up and running using the",
+      "dir": "content/posts",
+      "base": "2017-5-8-ReactUnityGithubPages.json",
+      "ext": ".json",
+      "sourceBase": "2017-5-8-ReactUnityGithubPages.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2014-6-3-Hello-Jekyll.json": {
+      "title": "Hello, Jekyll",
+      "date": "2014-06-03T00:00:00.000Z",
+      "preview": "Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running",
+      "dir": "content/posts",
+      "base": "2014-6-3-Hello-Jekyll.json",
+      "ext": ".json",
+      "sourceBase": "2014-6-3-Hello-Jekyll.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2015-4-25-MatchUpTackr.json": {
+      "title": "MatchUpTrackr",
+      "date": "2015-04-25T00:00:00.000Z",
+      "preview": "It has been quite some time. I'm starting a new mobile app to track match up statistics for any type of",
+      "dir": "content/posts",
+      "base": "2015-4-25-MatchUpTackr.json",
+      "ext": ".json",
+      "sourceBase": "2015-4-25-MatchUpTackr.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "content/index.md",
+    "content/posts/2014-6-3-Hello-Jekyll.md",
+    "content/posts/2015-4-25-MatchUpTackr.md",
+    "content/posts/2017-5-8-ReactUnityGithubPages.md"
+  ]
+}

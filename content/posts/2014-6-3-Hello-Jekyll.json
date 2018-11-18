@@ -1,0 +1,12 @@
+{
+  "title": "Hello, Jekyll",
+  "date": "2014-06-03T00:00:00.000Z",
+  "bodyContent": "Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running soon.\r\n\r\n### What's to come?\r\n\r\n* Exploration and evaluation of random projects on [GitHub](http://github.com)\r\n* An explanation of some of my own personal projects as I develop. Mostly games and web stuff such as [Naifu](https://github.com/shaneknows/Naifu)\r\n* Some interesting .NET tricks I discover through personal work\r\n* Other tips and tricks for any aspiring developer\r\n* Really anything code-centric",
+  "bodyHtml": "<p>Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running soon.</p>\n<h3>What's to come?</h3>\n<ul>\n<li>Exploration and evaluation of random projects on <a href=\"http://github.com\">GitHub</a></li>\n<li>An explanation of some of my own personal projects as I develop. Mostly games and web stuff such as <a href=\"https://github.com/shaneknows/Naifu\">Naifu</a></li>\n<li>Some interesting .NET tricks I discover through personal work</li>\n<li>Other tips and tricks for any aspiring developer</li>\n<li>Really anything code-centric</li>\n</ul>\n",
+  "preview": "Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running",
+  "dir": "content/posts",
+  "base": "2014-6-3-Hello-Jekyll.json",
+  "ext": ".json",
+  "sourceBase": "2014-6-3-Hello-Jekyll.md",
+  "sourceExt": ".md"
+}
